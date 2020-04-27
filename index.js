@@ -333,10 +333,15 @@ function tallyUpDonations(runners) {
  * Study the code for counter1 and counter2. Answer the questions below.
  * 
  * 1. What is the difference between counter1 and counter2?
+ *      
+ *  In counter1 the variable only exists locally and counter2 the variable is global.
  * 
  * 2. Which of the two uses a closure? How can you tell?
  * 
+ * The counter2 because it has to reach outside of his scope to get the variable
+ * 
  * 3. In what scenario would the counter1 code be preferable? In what scenario would counter2 be better? 
+ * In bigger applications counter1 is ideal, if working on a small application counter2 would be just fine.
  *
 */
 
